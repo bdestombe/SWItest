@@ -13,3 +13,7 @@ http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/run1.ipyn
 ### Front reaches bottom of the aquifer
 The flow is increased such, that the 50% front reaches the bottom of the confined aquifer. From this point, the SWI solution is only defined within the aquifer and therefore remains at the bottom of the aquifer.
 http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/reachBot.ipynb
+
+### Not in steady state
+The stress period is decreased by a factor of 250, now the model is not approaching steady state just yet, therefore the SWI solution and the Badon Ghyben Herzberg cannot be compared. We will do this anyway.
+http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/notSteady.ipynb
