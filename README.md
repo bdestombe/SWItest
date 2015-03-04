@@ -30,3 +30,18 @@ http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined2
 ### Inclined thin aquifer, zeta doesnt move up from zini
 This version shows an confined aquifer, freshwater heads are around 0m. The initial zeta surface is placed a little bit above the bottom of the single aquifer. The interface is at steady state (tscale 100 changed to 1000 gave no difference). The interface is not able to move upwards, but (with playing with zini) the interface does move down if placed above the BGH solution.
 http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined1conf_thin.ipynb
+
+## Initially strange, Steady state again
+This version shows an confined aquifer, freshwater heads are around 0m. The initial zeta surface is placed a little bit above the bottom of the single aquifer. The interface is at steady state (tscale 100 changed to 1000 gave no difference). The interface is not able to move upwards, but the interface does move down if placed above the BGH solution. Especially remarkable is the small dip in the heel.
+
+Changing the initial zeta condition such that the first zini value (all the way on the left) reaches the top of the aquifer, lets the SWI solution follow the BGH solution. If you move this cell to the right the swi solution gets off more ( zeta is lower) 
+
+### all low zinis
+All the initial zetas are placed just above the bottom
+http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined1conf_thin2_noHigh.ipynb
+
+### first cell zini high
+http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined1conf_thin2_high1.ipynb
+
+### half way the ghb cells zini high
+http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined1conf_thin2_high2.ipynb
