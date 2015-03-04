@@ -27,6 +27,6 @@ http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined1
 This version describes an inclined confined aquifer in the opposite direction. There is no interface, everything is salt. isource is 0 for the well, so saline water is entering from the RHS.
 http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined2conf.ipynb
 
-### Inclined thin aquifer, zini
+### Inclined thin aquifer, zeta doesnt move up from zini
 This version shows an confined aquifer, freshwater heads are around 0m. The initial zeta surface is placed a little bit above the bottom of the single aquifer. The interface is at steady state (tscale 100 changed to 1000 gave no difference). The interface is not able to move upwards, but (with playing with zini) the interface does move down if placed above the BGH solution.
 http://nbviewer.ipython.org/github/bdestombe/SWItest/blob/master/SWI1D/inclined1conf_thin.ipynb
